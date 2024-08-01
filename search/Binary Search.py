@@ -1,5 +1,12 @@
 from typing import List
 
+metadata = {
+    'title': 'Binary Search',
+    'link': None,
+    'difficulty': 'easy',
+    'tags': ['binary_search', 'search']
+}
+
 # returns the integer of the searched value
 def binary_search(arr: List, search_val: int) -> int:
     low = 0
