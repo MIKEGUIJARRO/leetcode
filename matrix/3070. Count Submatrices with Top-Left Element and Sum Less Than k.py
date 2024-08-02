@@ -52,7 +52,7 @@ class Solution:
                 
         return prefix_sum_grid
     
-    def print_matrix(self, grid: List[List[int]]) -> List[List[int]]:
+    def print_matrix(self, grid: List[List[int]]):
         for row in grid:
             print(row)
         
